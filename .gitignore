@@ -1,0 +1,7 @@
+./logs/
+__pycache__
+_calc_fit.so
+calc_fit.o
+calc_fit.py
+calc_fit_wrap.cxx
+calc_fit_wrap.o
