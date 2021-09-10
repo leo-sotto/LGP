@@ -1,4 +1,4 @@
-./logs/
+logs
 __pycache__
 _calc_fit.so
 calc_fit.o
