@@ -22,7 +22,7 @@ preferred-citation:
   journal: "Genetic Programming and Evolvable Machines"
   start: 607 # First page number
   end: 636 # Last page number
-  title: "Graph representations in genetic programming"
+  title: Graph representations in genetic programming
   issue: 4
   volume: 22
   year: 2021
