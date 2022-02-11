@@ -7,18 +7,24 @@ This is a Linear Genetic Programming (LGP) implementation in Python and C++.
 * Python 3 with Numpy.
 * Swig, to make the interface with the evaluation function, which is in C++. With Anaconda, it can be installed via:
 
-  `$ conda install -c anaconda swig`
+```
+$ conda install -c anaconda swig
+```
 
 ## How to Use
 
 First, one needs to compile the C++ modules with Swig. For that, you need to replace the following in _compile\_swig.sh_ in the _code_ directory by the location 
 in your machine.
 
-`-I/home/leo/anaconda3/include/python3.7m`
+```
+-I/home/leo/anaconda3/include/python3.7m
+```
 
 After that, you need to run the script:
 
-`$ ./compile_swig.sh`
+```
+$ ./compile_swig.sh
+```
 
 The parameters that can be configured are explained in _parameters.py_, and _run\_single.py_ shows how to run the LGP algorithm. You can either set the parameters
 in the _parameters.py_ file, instantiate a `Parameters` object, and pass it as argument when instantiating an `LGP` object, or change each parameter dinamically 
@@ -47,3 +53,21 @@ Each run generates some log files, that are stored in the location defined in yo
 
 If more runs are performed using a same log directory, each row in the CSV files correspond to a run. It is also possible to remove, change, or add log files by 
 editing the code in _LGP.py_. For example, one may want to have the fitness values for all generations instead of only for the last one.
+
+## Citation
+
+This LGP implementation is from the following publication:
+
+```
+@article{SottoGraphGP2021,
+  author    = {L{\'{e}}o Fran{\c{c}}oso Dal Piccol Sotto and Paul Kaufmann and Timothy Atkinson and Roman Kalkreuth and M{\'{a}}rcio Porto Basgalupp},
+  title     = {Graph representations in genetic programming},
+  journal   = {Genetic Programming and Evolvable Machines},
+  volume    = {22},
+  number    = {4},
+  pages     = {607--636},
+  year      = {2021},
+  url       = {https://doi.org/10.1007/s10710-021-09413-9},
+  doi       = {10.1007/s10710-021-09413-9}
+}
+```
