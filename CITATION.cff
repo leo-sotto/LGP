@@ -8,8 +8,8 @@ url: "https://github.com/leo-sotto/LGP"
 preferred-citation:
   type: article
   authors:
-  - family-names: "Fran{\c{c}}oso Dal Piccol Sotto"
-    given-names: "L{\'{e}}o"
+  - family-names: "Francoso Dal Piccol Sotto"
+    given-names: "Leo"
   - family-names: "Kaufmann"
     given-names: "Paul"
   - family-names: "Atkinson"
@@ -17,7 +17,7 @@ preferred-citation:
   - family-names: "Kalkreuth"
     given-names: "Roman"
   - family-names: "Porto Basgalupp"
-    given-names: "M{\'{a}}rcio"
+    given-names: "Marcio"
   doi: "10.1007/s10710-021-09413-9"
   journal: "Genetic Programming and Evolvable Machines"
   start: 607 # First page number
