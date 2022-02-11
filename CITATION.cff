@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Françoso Dal Piccol Sotto"
+  given-names: "Léo"
+title: "LGP Implementation in Python"
+url: "https://github.com/leo-sotto/LGP"
+preferred-citation:
+  type: article
+  authors:
+	- family-names: "Françoso Dal Piccol Sotto"
+	  given-names: "Léo"
+	- family-names: "Kaufmann"
+	  given-names: "Paul"
+	- family-names: "Atkinson"
+	  given-names: "Timothy"
+	- family-names: "Kalkreuth"
+	  given-names: "Roman"
+	- family-names: "Porto Basgalupp"
+	  given-names: "Márcio"
+  doi: "10.1007/s10710-021-09413-9"
+  journal: "Genetic Programming and Evolvable Machines"
+  start: 607 # First page number
+  end: 636 # Last page number
+  title: "Graph representations in genetic programming"
+  issue: 4
+  volume: 22
+  year: 2021
+
